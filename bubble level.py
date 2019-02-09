@@ -4,7 +4,6 @@ from microbit import *
 
 plus = Image("00000:00900:09990:00900:00000")
 
-
 while True:
     microbit.sleep(200)
     x1 = microbit.accelerometer.get_x()
